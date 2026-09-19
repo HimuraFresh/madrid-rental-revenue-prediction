@@ -142,20 +142,22 @@ con `expm1` devuelve aproximadamente la mediana condicional, no la media.
 
 ## Estructura del repositorio
 
+```text
 madrid-rental-revenue-prediction/
 ├── data/
-│ ├── raw/ datos de Inside Airbnb (no versionados)
-│ └── processed/ dataset unificado y conjunto de test
+│   ├── raw/                     datos de Inside Airbnb (no versionados)
+│   └── processed/               dataset unificado y conjunto de test
 ├── models/
-│ └── modelo_revenue_madrid.pkl
+│   └── modelo_revenue_madrid.pkl
 ├── notebooks/
-│ ├── dataset_completo.ipynb unificación de los tres snapshots
-│ └── main.ipynb EDA, preprocesado y modelado
+│   ├── dataset_completo.ipynb   unificación de los tres snapshots
+│   └── main.ipynb               EDA, preprocesado y modelado
 ├── src/
-│ └── utils/ funciones auxiliares
+│   └── utils/                   funciones auxiliares
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
